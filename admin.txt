@@ -1,0 +1,3 @@
+UN: mare_admin
+PW: B3ehLYDO7h3hR*C27I
+DB: mare_mare_db
