@@ -1,6 +1,6 @@
 /* 
     Theme Name: Mara-Mare Online Store
-    Theme URI: 
+    Theme URI:
     Description: Mare-Mare WooCommerce and Storefront child theme
     Author: Tertius Scheepers Meliorate Africa (PTY) LTD
     Author URI: https://MeliorateAfrica.com
@@ -11,3 +11,59 @@
     Tags: WooCommerce, Shop, Fashion
     Text domain: storefront
 */
+
+ul.products li.product img {
+  /* -webkit-filter: grayscale(100%); */
+  /* filter: grayscale(100%); */
+}
+/* Transition on products hover effect  */
+ul.products li.product img:hover {
+  /* -webkit-filter: grayscale(0%); */
+  /* filter: grayscale(0%); */
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+}
+
+/* Make page full width after removing sidebar */
+body.woocommerce #primary,
+body.woocommerce-checkout #primary {
+  width: 100%;
+}
+
+.site-info {
+  display: none;
+}
+
+/* Main navigation */
+.storefront-primary-navigation {
+  background-color: #0d0d0d;
+}
+
+/* Nav text color */
+li.current-menu-item > a {
+  color: white;
+}
+.main-navigation ul li a {
+  color: white;
+}
+.main-navigation ul.nav-menu ul li a {
+  color: #0d0d0d;
+}
+
+/* Cart sub menu */
+.site-header-cart .widget_shopping_cart {
+  color: white;
+}
+.site-header-cart .cart-contents .amount {
+  color: white;
+}
+.site-header-cart .cart-contents .count {
+  color: white;
+  opacity: 0.8;
+}
+.site-header-cart .cart-contents {
+  color: white;
+}
+.site-header-cart .widget_shopping_cart .total {
+  color: #0d0d0d;
+}

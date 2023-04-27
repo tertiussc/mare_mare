@@ -1,0 +1,2 @@
+2023-04-21T08:15:22+00:00 CRITICAL Out of memory (allocated 50331648 bytes) (tried to allocate 32768 bytes) in C:\xampp\htdocs\mare_mare\wp-includes\Requests\src\Transport\Curl.php on line 335
+

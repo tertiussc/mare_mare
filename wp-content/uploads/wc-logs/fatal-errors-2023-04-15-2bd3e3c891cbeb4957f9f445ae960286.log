@@ -1,0 +1,2 @@
+2023-04-15T07:23:56+00:00 CRITICAL Cannot redeclare wc_empty_cart_message() (previously declared in C:\xampp\htdocs\mare_mare\wp-content\themes\mare-mare\functions.php:27) in C:\xampp\htdocs\mare_mare\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 3672
+
