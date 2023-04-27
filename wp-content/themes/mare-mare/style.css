@@ -34,6 +34,14 @@ body.woocommerce-checkout #primary {
   display: none;
 }
 
+.mare-footer {
+  background-color: #0d0d0d;
+  color: white;
+  text-align: center;
+  margin: 0px;
+  padding: 15px;
+}
+
 /* Customizations on Desktop */
 @media (min-width: 768px) {
   .storefront-primary-navigation {
@@ -79,4 +87,147 @@ body.woocommerce-checkout #primary {
   .site-header-cart .widget_shopping_cart .total {
     color: #0d0d0d;
   }
+}
+
+/* Mobile Nav */
+#menu-mobile-menu {
+  background-color: #0d0d0d;
+  padding: 5px 20px;
+}
+.main-navigation ul li a,
+.site-title a,
+ul.menu li a,
+.site-branding h1 a,
+button.menu-toggle,
+button.menu-toggle:hover,
+.handheld-navigation .dropdown-toggle {
+  color: white;
+}
+.main-navigation ul li a:hover,
+.main-navigation ul li:hover > a,
+.site-title a:hover,
+.site-header ul.menu li.current-menu-item > a {
+  color: white;
+}
+
+#site-navigation-menu-toggle {
+  color: #0d0d0d;
+}
+
+/* Social Menu to icons **/
+.secondary-navigation a[href*="facebook.com"],
+.secondary-navigation a[href*="instagram.com"],
+.secondary-navigation a[href*="linkedin.com"],
+.secondary-navigation a[href*="pinterest.com"],
+.secondary-navigation a[href*="reddit.com"],
+.secondary-navigation a[href*="twitter.com"],
+.secondary-navigation a[href*="tiktok.com"],
+.secondary-navigation a[href*="wordpress.com"],
+.secondary-navigation a[href*="wordpress.org"],
+.secondary-navigation a[href*="youtube.com"],
+.secondary-navigation a[href*="mailto:"],
+.secondary-navigation a[href*="twitch.tv"],
+.secondary-navigation a[href$="/feed/"] {
+  text-indent: -9999px;
+}
+
+.secondary-navigation a[href*="facebook.com"]:after,
+.secondary-navigation a[href*="instagram.com"]:after,
+.secondary-navigation a[href*="linkedin.com"]:after,
+.secondary-navigation a[href*="pinterest.com"]:after,
+.secondary-navigation a[href*="reddit.com"]:after,
+.secondary-navigation a[href*="twitter.com"]:after,
+.secondary-navigation a[href*="tiktok.com"]:after,
+.secondary-navigation a[href*="wordpress.com"]:after,
+.secondary-navigation a[href*="wordpress.org"]:after,
+.secondary-navigation a[href*="youtube.com"]:after,
+.secondary-navigation a[href*="mailto:"]:after,
+.secondary-navigation a[href*="twitch.tv"]:after,
+.secondary-navigation a[href$="/feed/"]:after {
+  text-indent: 0;
+  display: block;
+  float: left;
+}
+
+.secondary-navigation a[href*="facebook.com"]:after,
+.secondary-navigation a[href*="instagram.com"]:after,
+.secondary-navigation a[href*="linkedin.com"]:after,
+.secondary-navigation a[href*="pinterest.com"]:after,
+.secondary-navigation a[href*="reddit.com"]:after,
+.secondary-navigation a[href*="twitter.com"]:after,
+.secondary-navigation a[href*="tiktok.com"]:after,
+.secondary-navigation a[href*="wordpress.com"]:after,
+.secondary-navigation a[href*="wordpress.org"]:after,
+.secondary-navigation a[href*="youtube.com"]:after,
+.secondary-navigation a[href*="twitch.tv"]:after {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+}
+
+.secondary-navigation a[href*="mailto:"]:after,
+.secondary-navigation a[href$="/feed/"]:after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.secondary-navigation a[href$="/feed/"]:after {
+  content: "\f09e";
+  color: #ff9900;
+}
+.secondary-navigation a[href*="twitch.tv"]:after {
+  content: "\f1e8";
+  color: #6441a5;
+}
+.secondary-navigation a[href*="mailto:"]:after {
+  content: "\f0e0";
+}
+.secondary-navigation a[href*="youtube.com"]:after {
+  content: "\f167";
+  color: #bb0000;
+}
+.secondary-navigation a[href*="wordpress.com"]:after,
+.secondary-navigation a[href*="wordpress.org"]:after {
+  content: "\f19a";
+  color: #0073aa;
+}
+.secondary-navigation a[href*="vimeo.com"]:after {
+  content: "\f194";
+  color: #aad450;
+}
+.secondary-navigation a[href*="tumblr.com"]:after {
+  content: "\f173";
+  color: #32506d;
+}
+.secondary-navigation a[href*="reddit.com"]:after {
+  content: "\f231";
+}
+.secondary-navigation a[href*="twitter.com"]:after {
+  content: "\f099";
+  color: #00aced;
+  font-size: 25px;
+}
+.secondary-navigation a[href*="tiktok.com"]:after {
+  content: "\e07b";
+  color: #000000;
+  font-size: 25px;
+}
+
+.secondary-navigation a[href*="facebook.com"]:after {
+  content: "\f09a";
+  color: #3b5998;
+  font-size: 25px;
+}
+
+.secondary-navigation a[href*="instagram.com"]:after {
+  content: "\f16d";
+  color: #517fa4;
+  font-size: 25px;
+}
+.secondary-navigation a[href*="linkedin.com"]:after {
+  content: "\f0e1";
+  color: #007bb6;
+}
+.secondary-navigation a[href*="pinterest.com"]:after {
+  content: "\f231";
+  color: #cb2027;
 }
