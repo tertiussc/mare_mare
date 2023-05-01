@@ -1,0 +1,61 @@
+/* Set login background image */
+body {
+  background-image: url(tree-6966126.jpg);
+  background-size: cover;
+}
+
+/* Login logo */
+.login h1 a {
+  background-image: url(../img/Mare-Mare\ Logo\ med.png);
+  margin: 0;
+  margin-top: 100px;
+  width: 100%;
+  background-size: 250px;
+  height: 120px;
+}
+
+.login label {
+  color: black;
+}
+
+.login form {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: none;
+}
+
+.login #nav {
+  font-size: larger;
+  margin-top: 5px;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+.login #backtoblog {
+  font-size: larger;
+  margin: 0;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* Login button */
+.login .button-primary,
+.login .button-primary:active,
+.login .button-primary:focus
+ {
+  margin-top: 10px;
+  background-color: #0d0d0d;
+  border: none;
+  text-shadow: none;
+  box-shadow: none;
+  padding: 0px 30px !important;
+  width: 100%;
+}
+.login .button-primary:hover {
+  color: black;
+  background-color: white;
+  border: #0d0d0d solid 2px;
+}
