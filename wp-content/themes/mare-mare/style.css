@@ -25,10 +25,10 @@ ul.products li.product img:hover {
 }
 
 /* Make page full width after removing sidebar */
-body.woocommerce #primary,
-body.woocommerce-checkout #primary {
-  width: 100%;
-}
+/* body.woocommerce #primary, */
+/* body.woocommerce-checkout #primary { */
+/* width: 100%; */
+/* } */
 
 .site-info {
   display: none;
@@ -61,18 +61,17 @@ body.woocommerce-checkout #primary {
     color: white;
   }
   /* Nav text color */
-  li.current-menu-item > a {
-    color: white;
-  }
+  li.current-menu-item > a,
   .main-navigation ul li a {
     color: white;
   }
+
   .main-navigation ul.nav-menu ul li a {
     color: #0d0d0d;
   }
   /* Cart sub menu */
   .site-header-cart .widget_shopping_cart {
-    color: white;
+    color: #0d0d0d;
   }
   .site-header-cart .cart-contents .amount {
     color: white;
@@ -86,6 +85,35 @@ body.woocommerce-checkout #primary {
   }
   .site-header-cart .widget_shopping_cart .total {
     color: #0d0d0d;
+  }
+  /* notice error */
+  .woocommerce-message::before,
+  .woocommerce-info::before,
+  .woocommerce-error::before,
+  .woocommerce-noreviews::before,
+  p.no-comments::before {
+    display: none;
+  }
+
+  /* Fix map popup color */
+  .leaflet-popup .leaflet-popup-content h6 {
+    color: #0d0d0d;
+  }
+  /* Contact form */
+  #post-112 {
+    background-color: #0d0d0d;
+    border-radius: 10px;
+    background-image: url("/mare_mare/img/call-15924.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    padding: 20px;
+    box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.4);
+  }
+
+
+  #post-112 h1 {
+    color: black;
   }
 }
 
